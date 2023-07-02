@@ -1,0 +1,101 @@
+<ion-header collapse="fade" class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="ion-padding-start">
+      <ion-button [routerLink]="['/']" expand="block" fill="outline" shape="round" color="dark">
+        <ion-icon name="chevron-back-sharp" size="small"></ion-icon>retroceder
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-card-header>
+    <ion-card-subtitle>¡Tus reportes haran sentir a Monteria más seguro!</ion-card-subtitle>
+    <ion-card-title>Registrate</ion-card-title>
+  </ion-card-header>
+  <ion-card>
+    <ion-card-content>
+      <ion-list lines="none">
+        <ion-item>
+          <ion-input
+            type="number"
+            label="Identificación"
+            placeholder="ingresa tu número de identificación"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="text"
+            label="Nombre"
+            placeholder="ingresa tu nombre"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="text"
+            label="Nombre 2"
+            placeholder="ingresa tu segundo nombre"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="text"
+            label="Apellido 1"
+            placeholder="ingresa tu apellido"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="text"
+            label="Apellido 2"
+            placeholder="ingresa tu segundo apellido"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="email"
+            label="email"
+            placeholder="ingrese su email"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="password"
+            label="Contraseña"
+            placeholder="* * * * * *"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="number"
+            label="Celular"
+            placeholder="000 000 00000"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            type="text"
+            label="Dirección"
+            placeholder="ingresa tu dirección"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-select
+            label="Barrio"
+            label-placement="fixed"
+            interface="popover"
+            placeholder="escoge tu barrio"
+          >
+            <ion-select-option value="apple">Apple</ion-select-option>
+            <ion-select-option value="banana">Banana</ion-select-option>
+            <ion-select-option value="orange">Orange</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <br />
+      <ion-button expand="block" color="dark" shape="round" size="default">
+        Registar
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
