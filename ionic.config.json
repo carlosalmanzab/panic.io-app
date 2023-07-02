@@ -1,0 +1,7 @@
+{
+  "name": "panic.io-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
