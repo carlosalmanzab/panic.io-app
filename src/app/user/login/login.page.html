@@ -1,0 +1,51 @@
+<ion-header collapse="fade" class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="ion-padding-start">
+      <ion-button
+        [routerLink]="['/']"
+        expand="block"
+        fill="outline"
+        shape="round"
+        color="dark"
+      >
+        <ion-icon name="chevron-back-sharp" size="small"></ion-icon>retroceder
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br />
+  <div>
+    <ion-img src="../../../assets/pictures/login.jpg"></ion-img>
+  </div>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Juntos por una Montería segura</ion-card-subtitle>
+      <ion-card-title>Iniciar Sesión</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list lines="none">
+        <ion-item>
+          <ion-input
+            label="Email"
+            type="text"
+            placeholder="user@email.com"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input
+            label="Contraseña"
+            type="password"
+            placeholder="* * * * * "
+          ></ion-input>
+        </ion-item>
+      </ion-list>
+      <div class="ion-padding">
+        <ion-button expand="block" color="dark" shape="round">
+          Ingresar
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
