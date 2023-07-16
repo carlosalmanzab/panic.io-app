@@ -31,7 +31,8 @@ export class MapPage implements OnInit {
           lat: 8.7559,
           lng: -75.8883,
         },
-        zoom: 13,
+        zoom: 13.3,
+        styles: environment.googleMapsStyles
       },
     });
   }
