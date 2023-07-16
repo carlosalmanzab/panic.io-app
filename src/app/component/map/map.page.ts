@@ -32,7 +32,8 @@ export class MapPage implements OnInit {
           lng: -75.8883,
         },
         zoom: 13.3,
-        styles: environment.googleMapsStyles
+        styles: environment.googleMapsStyles,
+        disableDefaultUI: true,
       },
     });
   }
