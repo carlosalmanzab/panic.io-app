@@ -1,0 +1,11 @@
+#map-container {
+  /* Asegúrate de que el contenedor tome todo el espacio disponible */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  /* Establece una altura mínima para el contenedor */
+  min-height: 300px;
+}

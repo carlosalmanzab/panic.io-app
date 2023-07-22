@@ -32,7 +32,7 @@
               }
             ],
             "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": []
+            "scripts": [ "node_modules/@capacitor/google-maps/dist/esm/scripts/google-maps.js" ]
           },
           "configurations": {
             "production": {
